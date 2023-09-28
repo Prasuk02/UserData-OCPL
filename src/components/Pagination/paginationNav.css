@@ -1,0 +1,37 @@
+.pagination-main-container{
+    width: fit-content;
+    margin: 10px auto 50px;
+}
+
+.pagination-main-container > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #6b6b6b;
+    border-radius: 7px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pagination-main-container > ul > li{
+    padding: 8px 20px;
+    font-weight: 500;
+    color: #444;
+}
+
+.pagination-main-container > ul > li:nth-child(2){
+    font-size: 13px;
+}
+
+.prevBtn, .nextBtn{
+    font-size: 18px;
+    background-color: #bf81d8;
+}
+
+.prevBtn:hover, .nextBtn:hover{
+    background-color: #bf81d8b2;
+}
+
+.br{
+    border-right: 1px solid #bf81d8;
+}
