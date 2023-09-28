@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+### HOMEPAGE
+![Homepage](https://github.com/Prasuk02/UserData-OCPL/assets/76988758/944fbf92-7cf6-4a88-8641-a8b97b1cd29f)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### VIEW DETAILS
+![Extended detail homepage](https://github.com/Prasuk02/UserData-OCPL/assets/76988758/2b891924-7745-41b4-939f-154c7a5a5645)
 
-## Available Scripts
+### LASTPAGE
+![Homepage - lastpage](https://github.com/Prasuk02/UserData-OCPL/assets/76988758/67654a4c-00c0-437c-89ca-9b6a11f80a69)
 
-In the project directory, you can run:
+### MOBILE RESPONSIVE
+![homepage - mobile responsive](https://github.com/Prasuk02/UserData-OCPL/assets/76988758/5967d24e-32ee-4396-b870-daac49dd093a)
 
-### `npm start`
+### MOBILE REPONSIVE (DETAILED USERS)
+![detailed homepage - mobile](https://github.com/Prasuk02/UserData-OCPL/assets/76988758/2d150d82-4e1e-4b76-a56d-ee40cbae308a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### TABLET RESPONSIVE
+![homepage - tablet responsive](https://github.com/Prasuk02/UserData-OCPL/assets/76988758/15fa1d8c-2488-4d26-92cc-d38a78e7e1b1)
