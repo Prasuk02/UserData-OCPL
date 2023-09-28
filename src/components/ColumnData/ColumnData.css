@@ -1,0 +1,50 @@
+.single-detail-container{
+    text-align: left;
+}
+
+.single-detail-container > h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #111;
+}
+
+.single-detail-container > p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.user-more-details{
+    width: 40%;
+    margin-top: 8px;
+}
+
+.user-more-details > h4, .user-more-details-desc > h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #111;
+}
+
+.user-more-details > p, .user-more-details-desc > p{
+    font-size: 14px;
+    color: #111;
+}
+
+@media (width <= 884px){
+    .user-more-details{
+        width: 50%;
+    }
+
+    .single-detail-container{
+        margin-bottom: 20px;
+    }
+}
+
+@media (width <= 484px){
+    .user-more-details{
+        width: 100%;
+    }
+}
