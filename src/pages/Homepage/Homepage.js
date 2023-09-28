@@ -4,6 +4,7 @@ import "./homepage.css";
 import UserCard from "../../components/UserCard/UserCard";
 import UsersNotFound from "../../components/UsersNotFound/UsersNotFound";
 import PaginationNav from "../../components/Pagination/PaginationNav";
+import { fetchUsersData } from "../../utils/fetchUsersData";
 
 const Homepage = () => {
   const [usersData, setUsersData] = useState([]);
@@ -28,16 +29,12 @@ const Homepage = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const { data } = await axios.get(
-        "http://jsonplaceholder.typicode.com/users"
-      );
+      const data = await fetchUsersData()
       setUsersData(data);
     };
 
     fetchData();
   }, []);
-
-  console.log(usersData);
 
   return (
     <>
