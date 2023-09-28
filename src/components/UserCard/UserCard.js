@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import "./userCard.css";
+import React, { useEffect, useState } from "react";
+import "./UserCard.css";
 
 const UserCard = ({ user }) => {
   const [viewModeBtn, setViewModeBtn] = useState(false);
   const { id, address, company, email, phone, username, website, name } = user;
+
   return (
     <>
       <div className="user-card-main-container">
@@ -34,7 +35,7 @@ const UserCard = ({ user }) => {
             }}
             className="view-details-btn"
           >
-            view details
+            {viewModeBtn ? "hide details" : "view details"}
           </buttton>
         </div>
 

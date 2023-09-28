@@ -1,5 +1,5 @@
 import React from "react";
-import "./usersNotFound.css";
+import "./UsersNotFound.css";
 
 const UsersNotFound = () => {
   return (

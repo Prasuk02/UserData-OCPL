@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
-import "./homepage.css";
+import "./Homepage.css";
 import UserCard from "../../components/UserCard/UserCard";
 import UsersNotFound from "../../components/UsersNotFound/UsersNotFound";
-import PaginationNav from "../../components/Pagination/PaginationNav";
-import { fetchUsersData } from "../../utils/fetchUsersData";
+import { fetchUsersData } from "../../pages/Homepage/action";
+import PaginationBar from "../../components/Pagination/PaginationBar";
 
 const Homepage = () => {
   const [usersData, setUsersData] = useState([]);
@@ -13,7 +12,11 @@ const Homepage = () => {
   const lastIndex = currentPage * usersPerPage;
   const firstIndex = lastIndex - usersPerPage;
   const totalPages = Math.ceil(usersData.length / usersPerPage);
-  const newUserData = usersData.slice(firstIndex, lastIndex);
+  const currPageUsersData = usersData.slice(firstIndex, lastIndex);
+
+  const setPage = (pageNo) => {
+    setCurrentPage(pageNo)
+  }
 
   const nextPage = () => {
     if (currentPage < totalPages) {
@@ -39,8 +42,8 @@ const Homepage = () => {
   return (
     <>
       <div className="homepage-main-container">
-        {newUserData.length ? (
-          newUserData.map((user) => {
+        {currPageUsersData.length ? (
+          currPageUsersData.map((user) => {
             return <UserCard user={user} />;
           })
         ) : (
@@ -48,11 +51,12 @@ const Homepage = () => {
         )}
       </div>
 
-      <PaginationNav
+      <PaginationBar
         nextPage={nextPage}
         prevPage={prevPage}
         currentPage={currentPage}
         totalPages={totalPages}
+        setPage={setPage}
       />
     </>
   );

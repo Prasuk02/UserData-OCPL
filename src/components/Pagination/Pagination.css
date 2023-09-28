@@ -7,31 +7,35 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    border: 1px solid #6b6b6b;
     border-radius: 7px;
     align-items: center;
     overflow: hidden;
 }
 
 .pagination-main-container > ul > li{
-    padding: 8px 20px;
+    padding: 9px 15px;
     font-weight: 500;
     color: #444;
 }
 
-.pagination-main-container > ul > li:nth-child(2){
+.pageNo{
     font-size: 13px;
+}
+
+.pageNo:hover{
+    cursor: pointer;
 }
 
 .prevBtn, .nextBtn{
     font-size: 18px;
-    background-color: #bf81d8;
 }
 
 .prevBtn:hover, .nextBtn:hover{
-    background-color: #bf81d8b2;
+    background-color: #bdbdbdb2;
+    cursor: pointer;
 }
 
-.br{
-    border-right: 1px solid #bf81d8;
+.selectedPage{
+    color: white !important;
+    background-color: #f06767;
 }
